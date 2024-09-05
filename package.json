@@ -1,0 +1,22 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Bots and stuff",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LiamTur/DiscordShenanigans.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamTur/DiscordShenanigans/issues"
+  },
+  "homepage": "https://github.com/LiamTur/DiscordShenanigans#readme",
+  "dependencies": {
+    "discord.js": "^14.16.1"
+  }
+}
