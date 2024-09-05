@@ -1,0 +1,2 @@
+# DiscordShenanigans
+Bots and stuff
