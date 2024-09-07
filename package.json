@@ -18,5 +18,8 @@
   "homepage": "https://github.com/LiamTur/DiscordShenanigans#readme",
   "dependencies": {
     "discord.js": "^14.16.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.1"
   }
 }
