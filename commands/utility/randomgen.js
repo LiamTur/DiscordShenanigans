@@ -8,7 +8,7 @@ module.exports = {
         .setDescription('Random generation commands')
         .addSubcommand(subcommand =>
             subcommand
-                .setName("add")
+                .setName('add')
                 .setDescription('Adds an input to the list.')
                 .addStringOption(option =>
                     option.setName('input')
@@ -16,10 +16,10 @@ module.exports = {
                         .setRequired(true)))
         .addSubcommand(subcommand =>
             subcommand
-                .setName("chooseinput")
+                .setName('chooseinput')
                 .setDescription('Chooses a random input from the list.')),
     async execute(interaction) {
-        if (interaction.options.getSubcommand() === 'addinput') {
+        if (interaction.options.getSubcommand() === 'add') {
             const input = interaction.options.getString('input', true);
             inputs.push(input);
             await interaction.reply(`Input \`${input}\` added!`);
